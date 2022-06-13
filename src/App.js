@@ -1,6 +1,4 @@
 import './App.css';
-import {Auth} from 'aws-amplify';
-import { useAuth } from './context/useAuth';
 import { Routes,Route } from 'react-router-dom';
 import Homepage from './pages/home-page/Homepage';
 import Searchpage from './pages/search-page/Searchpage';
