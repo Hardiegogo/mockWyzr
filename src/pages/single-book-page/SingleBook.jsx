@@ -37,7 +37,7 @@ const SingleBook = () => {
               <p>Authors: {selectedBook?.volumeInfo?.authors.map((author) => (
                 <span>{author} </span>
               ))}</p>
-              <p>Available as an Ebook: {selectedBook.saleInfo.isEbook ? 'true' : 'false'}</p>
+              <p>Available as an Ebook: {selectedBook?.saleInfo?.isEbook ? 'true' : 'false'}</p>
             </div>
           </div>
           </div>
