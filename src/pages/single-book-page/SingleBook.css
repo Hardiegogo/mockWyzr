@@ -1,0 +1,27 @@
+.single-book-container{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.single-book{
+    display: flex;
+    background-color: var(--v-dark-bg);
+    width: fit-content;
+    padding: 2rem;
+
+}
+.book-left{
+    display: grid;
+    place-items: center;
+    margin-right: 1rem;
+}
+
+.book-img{
+    max-width: 20rem;
+}
+
+.book-img img{
+    object-fit: contain;
+    width: 100%;
+}
+

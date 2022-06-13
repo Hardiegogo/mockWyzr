@@ -1,0 +1,40 @@
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.logo-container {
+  width: 15rem;
+}
+
+.logo {
+  object-fit: contain;
+  width: 100%;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #3f7fe8;
+  margin: auto;
+}
+
+.google-logo {
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+.login-button h3 {
+  color: white;
+  padding: 10px;
+}
+
+.login-button:hover {
+  transform: scale(1.1);
+}
